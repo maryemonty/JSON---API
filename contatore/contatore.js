@@ -13,6 +13,8 @@ save.addEventListener("click", function(){
 })
 del.addEventListener("click", function(){
     localStorage.clear();
+    tuoNome.innerHTML = ""
+    input.value = ""
 })
 
 
