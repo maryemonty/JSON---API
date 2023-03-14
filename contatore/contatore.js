@@ -9,6 +9,9 @@ save.addEventListener("click", function(){
     console.log(input.value);
     localStorage.getItem(input.value)
 })
+del.addEventListener("click", function(){
+    localStorage.clear();
+})
 
 
 // secondo esercizio
